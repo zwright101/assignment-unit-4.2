@@ -1,6 +1,6 @@
-# Tier 1 Week 4 - Part 2
+# Unit 4, Part 2 - HTML/CSS Practice
 
-This week we'll be pulling together all of the Javascript techniques you've learned thus far as well as practicing with HTML & CSS.
+This unit we'll be pulling together all of the Javascript techniques you've learned thus far as well as practicing with HTML & CSS.
 
 ## Topics Covered
 
