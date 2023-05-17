@@ -86,6 +86,13 @@ describe('Automated tests', function () {
             expect(img.src, 'src was empty.').not.to.be.empty;
         });
     });
+    describe('Text content added to the `<h3>`', function () {
+        it('Text content added to the `<h3>`', function () {
+            let h3 = root.querySelector('h3');
+            expect(h3, '<h3> element was not found.').to.exist;
+            expect(h3.innerHTML, '<h3> was empty.').not.to.be.empty;
+        });
+    });
 });
 
 /**
