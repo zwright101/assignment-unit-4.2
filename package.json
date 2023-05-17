@@ -1,0 +1,21 @@
+{
+  "name": "assignment-unit-4.2",
+  "version": "1.0.0",
+  "description": "This unit we'll be pulling together all of the Javascript techniques you've learned thus far as well as practicing with HTML & CSS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter test/reporter.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-prime:PrimeAcademy/assignment-unit-4.2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "node-html-parser": "^6.1.5"
+  }
+}
