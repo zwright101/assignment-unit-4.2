@@ -79,6 +79,13 @@ describe('Automated tests', function () {
             }
         });
     });
+    describe('Added `<img>` element', function () {
+        it('Added `<img>` element', function () {
+            let img = root.querySelector('img');
+            expect(img, '<img> element was not found.').to.exist;
+            expect(img.src, 'src was empty.').not.to.be.empty;
+        });
+    });
 });
 
 /**
