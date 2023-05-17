@@ -45,7 +45,8 @@ describe('Automated tests', function () {
                 expect(header, '<header> element not found.').to.exist;
                 let style = window.getComputedStyle(header);
                 let backgroundColor = style.getPropertyValue('background-color');
-                expect(backgroundColor, '<h2> element does not have background color.').not.to.be.empty;
+                expect(backgroundColor, '<header> element does not have background color.').not.to.be.empty;
+                expect(backgroundColor, '<header> element does not have background color.').to.not.equal('rgba(0, 0, 0, 0)');
             } else {
                 // Unable to test background color with node
                 this.skip();
@@ -73,6 +74,7 @@ describe('Automated tests', function () {
                 let style = window.getComputedStyle(h2);
                 let backgroundColor = style.getPropertyValue('background-color');
                 expect(backgroundColor, '<h2> element does not have background color.').not.to.be.empty;
+                expect(backgroundColor, '<h2> element does not have background color.').to.not.equal('rgba(0, 0, 0, 0)');
             } else {
                 // Unable to test background color with node
                 this.skip();
