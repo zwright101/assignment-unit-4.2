@@ -33,7 +33,7 @@ class MyReporter {
             .once(EVENT_RUN_BEGIN, () => {
                 console.log('');
                 console.log(`---
-| Part 3 - Cart System | Complete? |
+| Part 2: HTML/CSS Practice | Complete? |
 | --- | :---: |`);
                 console.log(
                     `\x1b[32m`,
