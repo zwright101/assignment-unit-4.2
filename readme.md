@@ -22,7 +22,7 @@ Requirements:
 // - Inside that `div` add an `<h2> My name is YOUR NAME </h2>` 
 // - Add a background-color and a text color of your choice to the `h2`.
 // - Add an image tag `<img>` and source an image of your main mode of transportation (you car, bus, scooter, bike, feet, etc)
-  - Add an `<h3>` that explains your mode of transportation. Add a background-color and a text color of your choice.
+// - Add an `<h3>` that explains your mode of transportation. Add a background-color and a text color of your choice.
 
 The style should look something like this (image shown has a little more CSS - feel free to try some new things!)
 <img src="./example.png" />

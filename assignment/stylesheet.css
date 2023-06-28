@@ -6,3 +6,9 @@ h2 {
     background-color: gray;
     color: black;
 }
+
+h3 {
+    background-color: khaki;
+    color: indigo;
+    border: 1px;
+}
