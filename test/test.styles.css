@@ -5,3 +5,7 @@
 #mocha h1 a {
     pointer-events: none;
 }
+
+header {
+    background-color: red;
+}
